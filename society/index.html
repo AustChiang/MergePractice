@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Club Course</title>
+    <link rel="stylesheet" href="//apps.bdimg.com/libs/jqueryui/1.10.4/css/jquery-ui.min.css">
+    <script src="//apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="topic.js"></script>
+    <script src="main.js"></script>
+    <script>$(function() {$( "#datepicker" ).datepicker();});</script>
+</head>
+<body>
+    <h1>社團課程時間表</h1>
+    <table id="courseTable"></table>
+    <form>
+    <p>日期：<input type="date" id="datepicker"></p>
+    請輸入活動主題：<input type="text" name="欄位名稱"><br><br>
+    <input type="submit" value="OK">
+    </form>
+</body>
+</html>

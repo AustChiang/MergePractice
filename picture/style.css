@@ -1,0 +1,136 @@
+body{
+    text-align: center;
+    background-image: url(images/grass_blue_sky_background.jpg);
+    width: 100%; 
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+#bird{
+    text-align: left;
+    width: 100px; 
+    height: 100px;
+    background-image: url(images/bird.png);
+    background-size: 100px 100px;
+    position: fixed;
+    left: 100px;
+    top: 300px;
+    animation: moove 5S infinite linear;
+}
+
+#sun:hover {
+    width: 200px;
+    height: 200px;
+}
+
+#sun{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:yellow;
+    border: 2px solid lightyellow;
+    box-shadow: 10px 10px 50px lightyellow;
+    transition: 2s;
+
+    position: absolute;
+    top:100px;
+    left:100px;
+}
+
+/*移動旋轉元素*/
+@keyframes mooooove{
+    from {left:0%;}
+    to {left:60%;}
+    from {transform: scale(2.5) rotate(0deg);}
+	to {transform: scale(2.5) rotate(360deg);}
+}
+
+@keyframes moove{
+    from {left:0%;}
+    to {left:60%;}
+}
+
+@keyframes windmillmove{
+    from {transform: scale(1) rotate(0deg);}
+	to {transform: scale(1) rotate(360deg);}
+}
+
+
+#tumbleweed{
+    background-image: url(images/tumbleweed-png-4.png);
+    width: 50px; 
+    height: 50px;
+    background-size: 50px 50px;
+    position: fixed;
+    left: 120px;
+    top: 750px;
+    animation: mooooove 1S infinite linear;
+}
+
+#windmill{
+    background-image:
+    url(images/lookout_tower.png);
+    width: 400px; 
+    height: 400px;
+    background-size: 100% 100%;
+    position: fixed;
+    left: 400px;
+    top: 160px;
+}
+
+#windmill2{
+    background-image:
+    url(images/windmill-clip.png);
+    width: 250px; 
+    height: 250px;
+    background-size: 100% 100%;
+    position: fixed;
+    left: 470px;
+    top: 110px;
+    animation: windmillmove 1S infinite linear;
+}
+
+#cow{
+    text-align: left;
+    width: 100px; 
+    height: 100px;
+    background-image: url(images/cow.png);
+    background-size: 100px 100px;
+    transform: rotateY(180deg);
+    position: fixed;
+    left: 600px;
+    top: 550px;
+}
+
+#wood{
+    text-align: left;
+    width: 1200px; 
+    height: 100px;
+    background-image: url(images/ft3rail.png);
+    background-size: 100px 100px;
+    position: fixed;
+    left: 0.1px;
+    top: 550px;
+}
+
+#birdnest{
+    background-image:
+    url(images/bird.png),url(images/7-2-nest-png-hd.png);
+    width: 200px; 
+    height: 200px;
+    position: fixed;
+    left: 70px;
+    top: 650px;
+}
+
+#bird2{
+    background-image: url(images/bird.png);
+    background-size: 100px 100px;
+    position: fixed;
+    width: 100px; 
+    height: 100px;
+    position: fixed;
+    left: 120px;
+    top: 670px;
+    transform: rotateY(180deg);
+}

@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+}
+
+table{
+    width: 60%;
+    margin: auto;
+    font-size: 1.2em;
+}
+
+td{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+/*padding改變間距*/
+
+/*奇偶數列樣式不同*/
+td:nth-child(even){
+    background-color: #FFBB73;
+}
+
+td:nth-child(odd){
+    background-color: pink;
+}
+
